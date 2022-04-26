@@ -2,7 +2,7 @@
 <h3 align="center">A passionate frontend developer from United States</h3>
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/0d/10/d2/0d10d2fe48a7956a4fdc9f7251132236.gif" />
 
-- 🌱 I’m currently learning **Typescript and Tailwind CSS**
+- 🌱 I’m currently learning **Typescript, NextJS and Tailwind CSS**
 
 - 👨‍💻 All of my projects are available at [gabrieldumaug.com](gabrieldumaug.com)
 
