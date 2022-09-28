@@ -1,4 +1,4 @@
-#  Gabriel / JGSAMAAA
+#  Gabriel / JGsamaaa
 
 **`Digital Craftsman (Developer/Gamer)`**
 
