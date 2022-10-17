@@ -3,7 +3,7 @@
 **`Digital Craftsman (Developer/Gamer)`**
 
 I'm a curious human being that got in to the tech world by playing Dota 2. I once wanted to be a game developer but I found joy in making websites with beautiful designs.
-Now currently sharpening my skills to deliver more user friendly websites and to impress my friends.
+Now currently sharpening my skills to deliver more user friendly websites.
  
 
 ---
