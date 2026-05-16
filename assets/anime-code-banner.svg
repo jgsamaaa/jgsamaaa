@@ -1,30 +1,35 @@
-<svg width="1280" height="260" viewBox="0 0 1280 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="240" viewBox="0 0 1280 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Gabriel / JGsamaaa</title>
-  <desc id="desc">Simple profile banner with clean typography and a subtle anime-inspired moon.</desc>
+  <desc id="desc">A minimal dark profile banner with clean typography, a moon, and soft anime-inspired lines.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="260" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1020"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1E1B4B"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080A12"/>
+      <stop offset="0.55" stop-color="#101827"/>
+      <stop offset="1" stop-color="#17113A"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 78) rotate(90) scale(120)">
-      <stop stop-color="#E0F2FE" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 68) rotate(90) scale(116)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1280" height="260" rx="24" fill="url(#bg)"/>
-  <circle cx="1000" cy="78" r="120" fill="url(#glow)"/>
-  <circle cx="1000" cy="78" r="42" fill="#E0F2FE"/>
-  <circle cx="982" cy="64" r="42" fill="#111827" opacity="0.25"/>
+  <rect width="1280" height="240" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="240" rx="22" fill="url(#grid)"/>
 
-  <path d="M0 205C165 180 284 178 411 195C552 214 648 229 800 205C935 184 1070 171 1280 198V260H0V205Z" fill="#070A13"/>
-  <path d="M0 207C172 181 289 180 418 197C555 215 649 230 801 207C938 186 1072 173 1280 200" stroke="#38BDF8" stroke-width="2" opacity="0.65"/>
-  <path d="M0 219C180 198 304 198 430 211C559 224 655 235 807 219C958 203 1092 198 1280 213" stroke="#FB7185" stroke-width="2" opacity="0.5"/>
+  <circle cx="1030" cy="68" r="116" fill="url(#moonGlow)"/>
+  <circle cx="1030" cy="68" r="39" fill="#E2E8F0"/>
+  <circle cx="1014" cy="55" r="39" fill="#101827" opacity="0.26"/>
 
-  <text x="96" y="112" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1">Gabriel</text>
-  <text x="96" y="154" fill="#CBD5E1" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Frontend Developer</text>
-  <text x="96" y="188" fill="#94A3B8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="500">React · TypeScript · Next.js · Firebase</text>
+  <path d="M0 204C145 184 272 184 402 200C540 217 666 224 801 207C940 189 1082 185 1280 204V240H0V204Z" fill="#05070D"/>
+  <path d="M0 206C159 187 279 187 409 202C544 218 666 226 801 209C946 191 1088 188 1280 206" stroke="#38BDF8" stroke-width="2" opacity="0.72"/>
+  <path d="M0 218C164 202 286 202 412 212C546 223 668 230 807 218C958 205 1094 203 1280 216" stroke="#F472B6" stroke-width="2" opacity="0.45"/>
 
-  <text x="1184" y="221" text-anchor="end" fill="#E2E8F0" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600" opacity="0.86">jgsamaaa</text>
+  <text x="86" y="104" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="58" font-weight="850" letter-spacing="-1.5">Gabriel</text>
+  <text x="90" y="143" fill="#CBD5E1" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">Frontend Developer</text>
+  <text x="90" y="177" fill="#94A3B8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="500">React / TypeScript / Next.js / Firebase</text>
+
+  <text x="1194" y="207" text-anchor="end" fill="#CBD5E1" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="600" opacity="0.9">jgsamaaa</text>
 </svg>
