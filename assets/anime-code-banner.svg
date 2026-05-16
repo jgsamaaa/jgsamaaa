@@ -1,73 +1,30 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Gabriel / JGsamaaa coding banner</title>
-  <desc id="desc">A clean anime-inspired night banner with a moon, city horizon, code window, and manga panel lines.</desc>
+<svg width="1280" height="260" viewBox="0 0 1280 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Gabriel / JGsamaaa</title>
+  <desc id="desc">Simple profile banner with clean typography and a subtle anime-inspired moon.</desc>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#080A14"/>
-      <stop offset="0.48" stop-color="#111827"/>
-      <stop offset="1" stop-color="#312E81"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
     </linearGradient>
-    <linearGradient id="accent" x1="340" y1="86" x2="915" y2="304" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.55" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#FB7185"/>
-    </linearGradient>
-    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 86) rotate(90) scale(126)">
-      <stop stop-color="#F8FAFC" stop-opacity="0.72"/>
-      <stop offset="0.42" stop-color="#A78BFA" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#111827" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 78) rotate(90) scale(120)">
+      <stop stop-color="#E0F2FE" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#F8FAFC" fill-opacity="0.12"/>
-    </pattern>
-    <filter id="glow" x="-40" y="-40" width="1360" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 0.42 0"/>
-    </filter>
   </defs>
 
-  <rect width="1280" height="360" fill="url(#sky)"/>
-  <rect width="1280" height="360" fill="url(#dots)"/>
-  <path d="M0 278C132 249 246 239 342 248C475 260 554 315 699 309C856 303 921 231 1072 221C1156 215 1228 229 1280 245V360H0V278Z" fill="#070A13"/>
-  <path d="M0 286C147 258 255 252 352 263C484 279 554 323 704 318C856 313 932 246 1084 236C1166 231 1232 243 1280 257" stroke="url(#accent)" stroke-width="2" opacity="0.85"/>
+  <rect width="1280" height="260" rx="24" fill="url(#bg)"/>
+  <circle cx="1000" cy="78" r="120" fill="url(#glow)"/>
+  <circle cx="1000" cy="78" r="42" fill="#E0F2FE"/>
+  <circle cx="982" cy="64" r="42" fill="#111827" opacity="0.25"/>
 
-  <circle cx="1010" cy="86" r="126" fill="url(#moonGlow)"/>
-  <circle cx="1010" cy="86" r="48" fill="#E0F2FE"/>
-  <circle cx="988" cy="70" r="48" fill="#111827" opacity="0.22"/>
+  <path d="M0 205C165 180 284 178 411 195C552 214 648 229 800 205C935 184 1070 171 1280 198V260H0V205Z" fill="#070A13"/>
+  <path d="M0 207C172 181 289 180 418 197C555 215 649 230 801 207C938 186 1072 173 1280 200" stroke="#38BDF8" stroke-width="2" opacity="0.65"/>
+  <path d="M0 219C180 198 304 198 430 211C559 224 655 235 807 219C958 203 1092 198 1280 213" stroke="#FB7185" stroke-width="2" opacity="0.5"/>
 
-  <g opacity="0.42">
-    <rect x="74" y="228" width="44" height="132" fill="#111827"/>
-    <rect x="136" y="196" width="58" height="164" fill="#0F172A"/>
-    <rect x="216" y="242" width="66" height="118" fill="#111827"/>
-    <rect x="1006" y="220" width="74" height="140" fill="#0F172A"/>
-    <rect x="1100" y="188" width="56" height="172" fill="#111827"/>
-    <rect x="1178" y="236" width="48" height="124" fill="#0F172A"/>
-  </g>
+  <text x="96" y="112" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1">Gabriel</text>
+  <text x="96" y="154" fill="#CBD5E1" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Frontend Developer</text>
+  <text x="96" y="188" fill="#94A3B8" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="500">React · TypeScript · Next.js · Firebase</text>
 
-  <g stroke="#F8FAFC" stroke-opacity="0.16" stroke-width="2">
-    <path d="M78 82H331L274 166H21L78 82Z"/>
-    <path d="M975 180H1218L1161 264H918L975 180Z"/>
-    <path d="M870 45L793 151"/>
-    <path d="M906 45L829 151"/>
-  </g>
-
-  <g transform="translate(418 70)">
-    <rect x="0" y="0" width="444" height="220" rx="18" fill="#0B1020" stroke="#334155" stroke-width="1.5"/>
-    <rect x="0" y="0" width="444" height="44" rx="18" fill="#111827"/>
-    <circle cx="28" cy="22" r="6" fill="#FB7185"/>
-    <circle cx="50" cy="22" r="6" fill="#FBBF24"/>
-    <circle cx="72" cy="22" r="6" fill="#34D399"/>
-    <rect x="30" y="72" width="116" height="12" rx="6" fill="#22D3EE" opacity="0.9"/>
-    <rect x="30" y="104" width="214" height="12" rx="6" fill="#A78BFA" opacity="0.9"/>
-    <rect x="30" y="136" width="166" height="12" rx="6" fill="#FB7185" opacity="0.9"/>
-    <rect x="30" y="168" width="256" height="12" rx="6" fill="#E2E8F0" opacity="0.52"/>
-    <path d="M331 84L363 116L331 148" stroke="#22D3EE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M296 148L264 116L296 84" stroke="#FB7185" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-
-  <g filter="url(#glow)" opacity="0.78">
-    <path d="M377 304C480 275 565 260 640 260C716 260 802 275 904 304" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
-  </g>
-
-  <text x="640" y="323" text-anchor="middle" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4">FRONTEND DEVELOPMENT ARC</text>
+  <text x="1184" y="221" text-anchor="end" fill="#E2E8F0" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600" opacity="0.86">jgsamaaa</text>
 </svg>
